@@ -1,0 +1,61 @@
+/* También se puede utilizar la regla-arroba @import, para enlazar las siguientes fuentes en Google Fonts, sin necesidad de descargarlas:
+
+@import url("https://fonts.googleapis.com/css?family=Ribeye+Marrow");
+
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+
+@import url("https://fonts.googleapis.com/css?family=Lobster"); */
+
+@font-face {
+  font-family: "Ribeye Marrow";
+  src: url("/fonts/ribeye-marrow.woff");
+}
+
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("/fonts/just-another-hand.woff");
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/fonts/lobster.woff");
+}
+
+body {
+  background-color: hsl(45, 55%, 55%);
+}
+
+h1 {
+  font-family: "Ribeye Marrow", cursive;
+  font-size: 3rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: sans-serif;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.latín {
+  margin: 0;
+  font-family: "Lobster";
+  font-size: 2.5rem;
+}
+
+p.español {
+  margin: 0 0 3rem;
+  color: white;
+  font-family: "Just Another Hand";
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+cite {
+  text-decoration: underline;
+}
